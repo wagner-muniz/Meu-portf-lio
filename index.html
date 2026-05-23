@@ -1,86 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Wagner Muniz</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" href="./imagens/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfólio | Wagner Muniz</title>
 </head>
-
 <body>
-   <header>
-    <a href="#" class="logo">port<span>fólio</span></a>
-    <div class="bx bx-menu" id="menu-icon"></div>
+    <!-- HEADER -->
+    <header>
+        <a href="#inicio" class="logo">
+            <img src="./imagens/logo-code.png" alt="logo code">
+            <span>
+                Port<span class="destaque">fólio</span>
+            </span>
+        </a>
+        <nav class="bx-menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- INICIO -->
+        <section id="inicio" class="secao-apresentacao">
+            <div class="foto-perfil">
+                <img src="./imagens/euWagner.jpeg" alt="Foto de perfil de Wagner Muniz">
+            </div>
+            <div class="apresentacao">
+                <h1>Olá, eu sou Wagner</h1>
+                <h2>Análise e Desenvolvimento de Sistemas</h2>
+                <p>
+                    Bem-vindo ao meu portfólio! Atualmente, estou cursando a faculdade
+                    na área de tecnologia, onde venho desenvolvendo uma base sólida em
+                    programação, lógica computacional e desenvolvimento de software.
+                    A formação acadêmica tem sido fundamental para aprimorar meus
+                    conhecimentos técnicos, fortalecer meu pensamento analítico e
+                    complementar minha prática como desenvolvedor, sempre buscando
+                    evolução constante e aprendizado contínuo.
+                </p>
+                <!-- <a href="#projetos" class="btn">Ver Projetos</a> -->
+            </div>
+        </section>
+        <!-- SOBRE -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>
+                Sou um entusiasta da tecnologia e apaixonado por desenvolvimento de
+                software. Com habilidades em diversas linguagens de programação,
+                estou sempre em busca de novos desafios e oportunidades para crescer
+                profissionalmente.
+            </p>
+        </section>
+        <!-- PROJETOS -->
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-container">
+                <div class="projeto">
+                    <h3>Projeto 1: Sorteador de Números</h3>
+                    <p>
+                        Um aplicativo web para sortear números aleatórios,
+                        com funcionalidades de criação, edição e exclusão
+                        de listas de números.
+                    </p>
+                    <span class="tag">
+                        HTML | CSS | JavaScript
+                    </span>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 2: Loja Online</h3>
+                    <p>
+                        Uma plataforma de e-commerce completa,
+                        permitindo aos usuários navegar por produtos,
+                        adicionar ao carrinho e finalizar compras.
+                    </p>
+                    <span class="tag">
+                        React | Node.js | MongoDB
+                    </span>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 3: Análise de Dados</h3>
+                    <p>
+                        Aplicação para visualizar e analisar dados em tempo
+                        real com gráficos interativos e relatórios customizáveis.
+                    </p>
+                    <span class="tag">
+                        Python | SQL | Data Visualization
+                    </span>
+                </div>
+            </div>
+            <!-- EM BREVE -->
+            <div class="em-breve">
+                <span>EM BREVE</span>
+            </div>
+            <!-- NOVOS PROJETOS -->
+            <div class="projetos-container">
+                <div class="projeto">
 
-    <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
-     </ul>
-    </header>    
-    <section class="home" id="home">
-        <div class="home-text">
-            <h5>Olá, meu nome é</h5>
-            <h1>Wagner Muniz</h1>
-            <h6>E eu sou <span>desenvolverdor Front-End</span>.</h6>
-            <p>Olá! Bem vindo ao meu Portfólio. Me chamo Wagner Muniz, sou novo nessa carreira de tecnologias, atuamente tou começando a estudar Front-End onde eu gostei muito, mas pretendo continuar estudando para eu se tornar um desenvolvedor Full Stack.</p>
-            <a href="#"class="btn">Download CV</a>
-        </div>
-
-        <div class="home-img">
-            <img src="imagens/logo.png">
-        </div>
-    </section>
-
- <section class="about" id="about">
-    <div class="about-img">
-        <img src="imagens/logo2.png">
-    </div>
-    <div class="about-text">
-        <h3>SOBRE MIM</h3>
-        <h2>Me chamo Wagner Muniz, tenho 18 anos e sou estudante do Ensino Médio</h2>
-        <p>Sou de São Paulo mas, atualmente estou morando na Bahia. Gosto muito de tecnologias e vê-lás como fuciona, sou um rapaz muito dedicado no que eu faço, gosto de desafios que possa me trazer mais experiêcis aos meus projetos.</p>
-        
-        <div class="main-btn">
-            <a href="#"class="btn">Meu Contato</a>
-            <a href="#"class="btn">Portfólio</a>
-        </div>
-    </div>
-</section>
-
-<section class="portfolio">
-
-</section>
-
-<section class="cta">
-    <h4>Gostou do meu Portfólio?</h4>
-    <h2>Me mande uma mensagem!</h2>
-    <a href="#"class="btn">Meu Contato</a>
-</section>
-
-<section class="contato" id="contato">
-    <div class="center">
-        <h3>Contate-me</h3>
-    </div>
-
-    <div class="contact-form">
-        <form action="">
-            <input type="" placeholder="Seu Nome" required>
-            <input type="email" name="" id="" placeholder="Seu Email" required>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Descrição do Projeto"></textarea>
-            <input type="submit" name="" value="Enviar" class="send-btn">
-        </form>
-    </div>
-</section>
-   <script type="text/javascript" src="js/script.js"></script>
-
+                    <h3>Projeto 4</h3>
+                    <p>EM BREVE</p>
+                    <span class="tag">
+                        Node.js | Express | JWT
+                    </span>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 5</h3>
+                    <p>EM BREVE</p>
+                    <span class="tag">
+                        React Native | Firebase
+                    </span>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 6</h3>
+                    <p>EM BREVE</p>
+                    <span class="tag">
+                        Vue.js | TypeScript | REST API
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; 2026 Meu Site. Todos os direitos reservados.
+        </p>
+        <address id="contato">
+            <a href="https://wa.me/5577981001595" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+                WhatsApp
+            </a>
+            <a href="https://www.instagram.com/wagnermuniz__/" target="_blank"
+               class="btn">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </a>
+        </address>
+    </footer>
 </body>
 </html>
